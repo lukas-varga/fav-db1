@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="studuje-nahradni-klicove-relace" id="C13439EA-1F88-7305-F80F-8DEDFF4B2868" version="3.5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:10:18 UTC</createdTime>
+<ownerDesignName>studuje-bez-rozkladu</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C13439EA-1F88-7305-F80F-8DEDFF4B2868</designId>
+</OSDM_Design>

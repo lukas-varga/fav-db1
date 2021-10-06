@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="729F49B5-7161-F345-6EF7-1EE347A14DC1" name="PREDMET">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:13:36 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pracoviste" id="14A088B6-41F3-B34F-6BAE-1CFF096FDD6C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:13:59 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zkratka" id="DF585429-6918-569E-B641-315B0676F549">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:14:06 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="790F3307-37BA-1BAC-EFBB-7A6AB35633BB">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:14:15 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kredity" id="F558172F-0EB2-D69B-42E1-5353DB9F0D4A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:14:23 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A26F1C4-8753-85DD-5442-666EC92E05DB" name="PREDMET PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:14:04 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14A088B6-41F3-B34F-6BAE-1CFF096FDD6C</attributeRef>
+<attributeRef>DF585429-6918-569E-B641-315B0676F549</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

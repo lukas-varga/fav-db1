@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9810CD98-F9EF-7CEF-7F31-2F71741B0634" name="STUDENT">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:10:56 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="os-cislo" id="E23020D1-B748-D0D4-8E88-34B73C57D939">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:11:19 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="14C32DA2-F135-5F3E-5969-613012754503">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:12:15 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="C7C21840-08CF-2C9E-E652-21E178173B75">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:12:27 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rc" id="8B2D5103-C9C3-AE4F-8C24-39F031B01817">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:12:32 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2741B61-1771-40C8-46F9-B4479C639A4D" name="Student PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:12:11 UTC</createdTime>
+<ownerDesignName>studuje-nahradni-klice</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E23020D1-B748-D0D4-8E88-34B73C57D939</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
