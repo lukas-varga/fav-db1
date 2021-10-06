@@ -14,7 +14,6 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="semestr" id="34ABE74D-0A88-3D6D-8B92-092E7578C437">
 <createdBy>lukas</createdBy>
@@ -33,42 +32,6 @@
 <engineerTo>
 <item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="os-cislo" id="A5FAD4E2-B472-A69C-B571-2BB99AB86939">
-<createdBy>lukas</createdBy>
-<createdTime>2021-10-06 08:35:47 UTC</createdTime>
-<generatorID>9587236E-44A3-9C85-5255-1BB379A7709B</generatorID>
-<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
-<engineerTo>
-<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
-</engineerTo>
-<referedAttribute>E23020D1-B748-D0D4-8E88-34B73C57D939</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pracoviste" id="6B37F884-4B60-2D69-871B-D2F899D2FB0B">
-<createdBy>lukas</createdBy>
-<createdTime>2021-10-06 08:35:53 UTC</createdTime>
-<generatorID>27D74A98-272E-493A-0713-8F3AFEAC7B37</generatorID>
-<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
-<engineerTo>
-<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
-</engineerTo>
-<referedAttribute>14A088B6-41F3-B34F-6BAE-1CFF096FDD6C</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="zkratka" id="312CB0F1-7CC6-9D86-19B9-7308AE5DA14C">
-<createdBy>lukas</createdBy>
-<createdTime>2021-10-06 08:35:53 UTC</createdTime>
-<generatorID>27D74A98-272E-493A-0713-8F3AFEAC7B37</generatorID>
-<ownerDesignName>studuje-nahradni-klicove-relace</ownerDesignName>
-<engineerTo>
-<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
-</engineerTo>
-<referedAttribute>DF585429-6918-569E-B641-315B0676F549</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -28,22 +28,22 @@
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="27D74A98-272E-493A-0713-8F3AFEAC7B37" otype="Relation" vid_source="D6D113E7-593D-3B86-F3F4-E35068B41DB7" vid_target="A1B2AF06-5DF3-F4D2-D637-F76E43EF5BED">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8F7A6D03-E7F1-6369-7B62-E8BBEA717770" otype="Relation" vid_source="D6D113E7-593D-3B86-F3F4-E35068B41DB7" vid_target="A1B2AF06-5DF3-F4D2-D637-F76E43EF5BED">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="675" y="196"/>
-<point x="561" y="196"/>
+<point x="675" y="241"/>
+<point x="561" y="241"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9587236E-44A3-9C85-5255-1BB379A7709B" otype="Relation" vid_source="15D91E80-7C2C-12A1-8386-9A8A5F760430" vid_target="A1B2AF06-5DF3-F4D2-D637-F76E43EF5BED">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F396AC42-ABA1-5070-0ACA-0F9DB6F69ED9" otype="Relation" vid_source="15D91E80-7C2C-12A1-8386-9A8A5F760430" vid_target="A1B2AF06-5DF3-F4D2-D637-F76E43EF5BED">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="302" y="197"/>
-<point x="405" y="197"/>
+<point x="302" y="182"/>
+<point x="405" y="182"/>
 </points>
 </Connector>
 </connectors>
