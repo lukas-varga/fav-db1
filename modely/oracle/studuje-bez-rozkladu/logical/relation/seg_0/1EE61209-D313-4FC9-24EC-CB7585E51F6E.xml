@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="STUDUJE" directorySegmentName="seg_0" id="1EE61209-D313-4FC9-24EC-CB7585E51F6E">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:15:18 UTC</createdTime>
+<ownerDesignName>studuje-bez-rozkladu</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9810CD98-F9EF-7CEF-7F31-2F71741B0634</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>729F49B5-7161-F345-6EF7-1EE347A14DC1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="semestr" id="321A7BA7-6882-3995-789F-2346F3990F42">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:17:11 UTC</createdTime>
+<ownerDesignName>studuje-bez-rozkladu</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="rocnik" id="8E2D6C48-2D27-416D-6306-E8DB2D598BF6">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-06 08:17:15 UTC</createdTime>
+<ownerDesignName>studuje-bez-rozkladu</ownerDesignName>
+<engineerTo>
+<item key="C129D13D-B3D0-61F3-315E-59702305492F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
