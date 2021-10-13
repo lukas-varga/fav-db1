@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stoji" directorySegmentName="seg_0" id="5A0FC41D-3023-FC0F-CD04-58C6035590E6">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-13 07:56:42 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<engineerTo>
+<item key="C534A850-266B-3BCD-257B-8C728FF1B9FF" value="true"/>
+</engineerTo>
+<sourcePk>0DC9B633-CEAF-1AB0-0E77-0DB16099583F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A9C6B03-3AC7-C0EA-0EB6-EE46CB512017</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C48DE6B3-C806-3CD4-F223-86E1E8EAD428</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="d_otevreni" id="08D6A8D5-4603-593C-DE8B-2E885EEB625D">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-13 07:57:07 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<engineerTo>
+<item key="C534A850-266B-3BCD-257B-8C728FF1B9FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

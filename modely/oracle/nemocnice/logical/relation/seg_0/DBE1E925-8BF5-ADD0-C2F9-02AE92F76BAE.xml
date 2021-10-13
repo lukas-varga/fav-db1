@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lezi" directorySegmentName="seg_0" id="DBE1E925-8BF5-ADD0-C2F9-02AE92F76BAE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-13 07:51:14 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<engineerTo>
+<item key="C534A850-266B-3BCD-257B-8C728FF1B9FF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>86BB2B66-5C9B-403C-4789-CAADE8C3C99E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C48DE6B3-C806-3CD4-F223-86E1E8EAD428</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="datum_nastupu" id="06F90FBA-64C3-5493-E10C-9614941C2144">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-13 07:51:56 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<engineerTo>
+<item key="C534A850-266B-3BCD-257B-8C728FF1B9FF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="diagnoza" id="CDCB6162-62B0-EF6D-48E2-D90EEAFBB14B">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-13 07:52:04 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<engineerTo>
+<item key="C534A850-266B-3BCD-257B-8C728FF1B9FF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
