@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFAC3FF1-2C53-C95B-6EFA-102C62FC337D" name="MESTO">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>2A9C6B03-3AC7-C0EA-0EB6-EE46CB512017</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="c_mesta" id="9ECFF78E-8C39-636F-3A2C-46D97AB43B9C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>2CF4E017-4058-2FD7-54EE-FDC7806AD370</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="B1879FEE-8546-572B-B2EF-174721D29D55">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>5F79BB04-51B1-0618-7C23-A29F266C8221</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obyvatel" id="C0DA2320-9348-BB3D-5FBC-7D832E5BE858">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>6831E492-3605-9C96-A949-D29D86FE9727</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="065EE3C5-B40B-3754-83B1-5C5112C10452" name="MESTO_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>0DC9B633-CEAF-1AB0-0E77-0DB16099583F</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ECFF78E-8C39-636F-3A2C-46D97AB43B9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

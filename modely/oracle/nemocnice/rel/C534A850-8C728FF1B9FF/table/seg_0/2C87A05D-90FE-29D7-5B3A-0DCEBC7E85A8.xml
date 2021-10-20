@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C87A05D-90FE-29D7-5B3A-0DCEBC7E85A8" name="lezi">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="c_pacienta" id="34D516E5-11BC-EB30-EA53-16F0098CE436">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FFCEA1B-B9C1-2AB6-5D80-9B6CB9BA1A46" referredColumn="796F35AA-8924-F523-D9F5-328E2EEA1362"/>
+</associations>
+</Column>
+<Column name="c_nemocnice" id="05A49845-987E-A414-F5FC-A0D73FC5035C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8467E2A-DAF2-E464-E2CF-61AA77B6BE1A" referredColumn="CBD60F02-D00E-BC71-3A4A-4A6E94E5D1D8"/>
+</associations>
+</Column>
+<Column name="diagnoza" id="44FD55FB-D762-C502-596E-EF8823569BBA">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>CDCB6162-62B0-EF6D-48E2-D90EEAFBB14B</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="datum_nastupu" id="8D0DBB0E-C068-6164-D8CD-2012676A6CE2">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>06F90FBA-64C3-5493-E10C-9614941C2144</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD654DCB-1000-5439-D555-2B59D3737357" name="lezi_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34D516E5-11BC-EB30-EA53-16F0098CE436"/>
+<colUsage columnID="05A49845-987E-A414-F5FC-A0D73FC5035C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FABACABF-6EA0-373D-898F-672541545E38" name="lezi_PACIENT_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>DBE1E925-8BF5-ADD0-C2F9-02AE92F76BAE</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34D516E5-11BC-EB30-EA53-16F0098CE436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73C7F7DA-168E-E2C0-006A-1F52864348FA" name="lezi_NEMOCNICE_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>DBE1E925-8BF5-ADD0-C2F9-02AE92F76BAE</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05A49845-987E-A414-F5FC-A0D73FC5035C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

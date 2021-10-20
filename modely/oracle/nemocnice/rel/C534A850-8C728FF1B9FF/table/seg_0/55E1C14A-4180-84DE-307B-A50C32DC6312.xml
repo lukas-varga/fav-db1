@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55E1C14A-4180-84DE-307B-A50C32DC6312" name="NEMOCNICE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>C48DE6B3-C806-3CD4-F223-86E1E8EAD428</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="c_nemocnice" id="CBD60F02-D00E-BC71-3A4A-4A6E94E5D1D8">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>8A1A394A-E4D6-BEA6-9704-8CC7DE8ABE7C</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="FEE1A338-ED5F-CDC2-0763-4E792CEDE95E">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>8194FF3C-93CA-3415-6C85-B06E84A25D74</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kapacita" id="B3AB8BF0-F797-4E99-7CAB-45F841E3522D">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>3D5A6657-0625-DBEC-3A5A-AED94DF44DA9</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="c_mesta" id="29EF5AD7-19CA-7105-0318-D7640DB656C6">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>171CD07B-8797-C957-ACF5-C27878A5D33B</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C24CBCD0-2227-CADA-BE20-45AC66503D07" referredColumn="9ECFF78E-8C39-636F-3A2C-46D97AB43B9C"/>
+</associations>
+</Column>
+<Column name="d_otevreni" id="DFD30802-BC23-5BCA-6F14-F1F23F253216">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>08D6A8D5-4603-593C-DE8B-2E885EEB625D</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>C24CBCD0-2227-CADA-BE20-45AC66503D07</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BEC47DB-9CA0-D8AA-D71A-218B5F3577D0" name="NEMOCNICE_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>9B83B933-7DCB-C075-80DF-B8355ACB1FED</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD60F02-D00E-BC71-3A4A-4A6E94E5D1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51DCA478-0C48-F976-5564-5D9104B190E8" name="NEMOCNICE_MESTO_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>5A0FC41D-3023-FC0F-CD04-58C6035590E6</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29EF5AD7-19CA-7105-0318-D7640DB656C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8467E2A-DAF2-E464-E2CF-61AA77B6BE1A" containerWithKeyObject="2C87A05D-90FE-29D7-5B3A-0DCEBC7E85A8" localFKIndex="73C7F7DA-168E-E2C0-006A-1F52864348FA" name="lezi_NEMOCNICE_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-20 07:43:51 UTC</createdTime>
+<generatorID>DBE1E925-8BF5-ADD0-C2F9-02AE92F76BAE</generatorID>
+<ownerDesignName>nemocnice</ownerDesignName>
+<referredTableLongName>NEMOCNICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>55E1C14A-4180-84DE-307B-A50C32DC6312</referredTableID>
+<keyObject>8BEC47DB-9CA0-D8AA-D71A-218B5F3577D0</keyObject>
+<referredKeyID>8BEC47DB-9CA0-D8AA-D71A-218B5F3577D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>c_nemocnice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
