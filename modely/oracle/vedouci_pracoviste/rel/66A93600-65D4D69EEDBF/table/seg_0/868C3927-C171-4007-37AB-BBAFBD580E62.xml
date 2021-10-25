@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="868C3927-C171-4007-37AB-BBAFBD580E62" name="vedouci">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:42:13 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VEDOUCI_PRACOVNIK_ID" id="1F37452A-C7B9-1C2B-6878-70AE57DDE34B">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:42:22 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0437AF26-5DE6-F778-C81B-059D9B36BD50" referredColumn="473BF8FA-6189-0719-DA45-A935BF30FF19"/>
+</associations>
+</Column>
+<Column name="PRACOVISTE_ID" id="C229510E-7E58-32F4-8FA0-0B60C2CACD9E">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:43:15 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C070A4E2-90E6-5413-C34E-DF9FFCD972D8" referredColumn="92217B68-54D2-AD31-849D-DA6D508B80FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A20E00E-84B9-A85F-FDFA-72F4A486E4FC" name="vedouci_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:42:53 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F37452A-C7B9-1C2B-6878-70AE57DDE34B"/>
+<colUsage columnID="C229510E-7E58-32F4-8FA0-0B60C2CACD9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A39F3F74-6EB6-5AD8-2A14-C2E382ACDD20" name="vedouci_PRACOVISTE_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:42:22 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F37452A-C7B9-1C2B-6878-70AE57DDE34B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="937391CF-AEA5-73F3-C5FD-BE73A51BA23B" name="vedouci_PRACOVNIK_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:43:15 UTC</createdTime>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C229510E-7E58-32F4-8FA0-0B60C2CACD9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

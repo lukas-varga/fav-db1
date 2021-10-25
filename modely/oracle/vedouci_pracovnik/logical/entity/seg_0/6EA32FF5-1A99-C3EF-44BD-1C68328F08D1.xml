@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56D50E83-142F-E4C2-BF07-D636FDB8ACE0" name="PRACOVNIK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6EA32FF5-1A99-C3EF-44BD-1C68328F08D1" name="PRACOVNIK">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:49:19 UTC</createdTime>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>B3095DA8-83E1-AE8C-03BE-871FECAF9E8D</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="jmeno" id="A27B11E3-170E-2EF8-673E-0D06ED1327CA">
+<Attribute name="jmeno" id="34311F43-7E70-17B8-D814-5DA7B7F3E127">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:49:33 UTC</createdTime>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>7161E744-31C2-A18C-24F3-CA5F74E3FB49</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
@@ -29,9 +30,10 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prijmeni" id="36B45362-4F9D-BAAE-18E1-A8571A23D407">
+<Attribute name="prijmeni" id="9673024F-C71D-5822-C705-8822C98E863B">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:49:43 UTC</createdTime>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>4EC62468-707E-9C74-7B40-A15A5EC920D8</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
@@ -42,15 +44,27 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRACOVNIK PRACOVNIK ID" id="1B8E9EFB-A9B0-DF9A-9046-CFA1E67DEE01">
+<Attribute name="vedouci PRACOVNIK PRACOVNIK ID" id="C1CA3F61-AC78-6752-7F76-DC858C6A12C9">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:59:16 UTC</createdTime>
-<generatorID>0FEB9F7F-FF59-D6E4-A23D-5931274EA818</generatorID>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>E06B3375-3C90-A411-5A2F-7DE8B5343B8B</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vedouci vedouci pracovnik id 1" id="FDB9E8E0-D9D9-9F48-9069-EFD4425D8AF3">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>45A13C52-4419-127C-D466-7CE28FD45085</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<engineerTo>
+<item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24064DA9-1800-9935-0A6A-FC90FA20F78A" name="PRACOVISTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="095F587E-CDD5-7A33-25C4-C976550B6C95" name="PRACOVISTE">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:47:19 UTC</createdTime>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>0A855C56-C7AF-955E-F728-AF94A049F89A</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
@@ -14,11 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<createSurrogateKey>true</createSurrogateKey>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nazev" id="0485CDCC-3E38-15E3-8EA9-F45D48948195">
+<Attribute name="nazev" id="19D7C18F-591D-0D88-5F7A-C59CC52D8B1C">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 17:48:49 UTC</createdTime>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>4205D191-97E3-9C48-F82C-77ADEB1A2F6A</generatorID>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <engineerTo>
 <item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>

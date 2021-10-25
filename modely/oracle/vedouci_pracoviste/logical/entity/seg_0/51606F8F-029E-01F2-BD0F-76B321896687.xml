@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51606F8F-029E-01F2-BD0F-76B321896687" name="PRACOVNIK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:46:48 UTC</createdTime>
+<generatorID>5B074282-0DD1-D905-5803-D08DB3A0A6EC</generatorID>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<engineerTo>
+<item key="66A93600-A375-551F-5A75-65D4D69EEDBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jmeno" id="35A8348A-D512-7ADF-E0C3-091B380C289A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:46:48 UTC</createdTime>
+<generatorID>43A51714-14A8-3CA2-FE8C-0C097B702F4F</generatorID>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<engineerTo>
+<item key="66A93600-A375-551F-5A75-65D4D69EEDBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="AA0C4F41-5959-36D4-268D-04846BA01D8F">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:46:48 UTC</createdTime>
+<generatorID>31384418-AD21-62DA-9AF1-C87FBC0D2A12</generatorID>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<engineerTo>
+<item key="66A93600-A375-551F-5A75-65D4D69EEDBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

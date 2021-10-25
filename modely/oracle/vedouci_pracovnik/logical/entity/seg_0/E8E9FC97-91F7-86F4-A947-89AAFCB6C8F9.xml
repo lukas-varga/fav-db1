@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8E9FC97-91F7-86F4-A947-89AAFCB6C8F9" name="ma">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>CDCC7F83-3DA5-ECF5-93F4-8D7AC0B80718</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<engineerTo>
+<item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7006021-862C-7D1A-1E5F-C22D6FC531FF" name="ma PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:56:35 UTC</createdTime>
+<generatorID>B35678FD-912D-C541-AF9D-5CD25F3774AD</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<engineerTo>
+<item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

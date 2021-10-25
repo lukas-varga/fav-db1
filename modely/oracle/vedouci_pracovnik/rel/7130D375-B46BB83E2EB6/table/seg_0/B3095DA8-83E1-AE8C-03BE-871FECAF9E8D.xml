@@ -45,9 +45,31 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <isSurrogateColumn>true</isSurrogateColumn>
 </Column>
-<Column name="PRACOVNIK_PRACOVNIK_ID" id="D4AADB1C-F59C-5215-6E99-79301A73084A">
+<Column name="vedouci_PRACOVNIK_PRACOVNIK_ID" id="E06B3375-3C90-A411-5A2F-7DE8B5343B8B">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 18:18:36 UTC</createdTime>
+<createdTime>2021-10-25 18:52:53 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vedouci_vedouci_pracovnik_id_1" id="45A13C52-4419-127C-D466-7CE28FD45085">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:54:47 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOVNIK_PRACOVNIK_ID" id="C34EAE98-56B0-432A-4279-B00229407C15">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:55:21 UTC</createdTime>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +78,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5590C7B1-9F19-726F-E9FF-A090BA6A5525" referredColumn="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
+<colAssociation fkAssociation="8AF7CA91-EE91-E6D2-8E6B-39FAF0BEFCCD" referredColumn="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
 </associations>
 </Column>
 </columns>
@@ -71,14 +93,14 @@
 <colUsage columnID="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FB17359E-F585-BB7B-3660-2EE6EBE15518" name="VEDOUCI_PRACOVNIK_FK">
+<ind_PK_UK id="F7AD9864-D64A-3CEF-7AD1-1FD1E64AEE10" name="vedouci_pracovnik_id">
 <createdBy>lukas</createdBy>
-<createdTime>2021-10-25 18:18:36 UTC</createdTime>
+<createdTime>2021-10-25 18:55:21 UTC</createdTime>
 <ownerDesignName>vedouci_pracovnik</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D4AADB1C-F59C-5215-6E99-79301A73084A"/>
+<colUsage columnID="C34EAE98-56B0-432A-4279-B00229407C15"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

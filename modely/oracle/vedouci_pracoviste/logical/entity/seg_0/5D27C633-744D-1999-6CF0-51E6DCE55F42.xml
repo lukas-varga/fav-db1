@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D27C633-744D-1999-6CF0-51E6DCE55F42" name="vedouci">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:46:48 UTC</createdTime>
+<generatorID>868C3927-C171-4007-37AB-BBAFBD580E62</generatorID>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<engineerTo>
+<item key="66A93600-A375-551F-5A75-65D4D69EEDBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CA08CB3-64BA-38F7-8421-2F502ACBD342" name="vedouci PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:46:48 UTC</createdTime>
+<generatorID>2A20E00E-84B9-A85F-FDFA-72F4A486E4FC</generatorID>
+<ownerDesignName>vedouci_pracoviste</ownerDesignName>
+<engineerTo>
+<item key="66A93600-A375-551F-5A75-65D4D69EEDBF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>
