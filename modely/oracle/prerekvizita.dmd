@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="prerekvizita" id="47796077-1035-1A1A-18F9-511914276113" version="3.5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:30:02 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>47796077-1035-1A1A-18F9-511914276113</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F7C4C4F1-7A2F-E8EF-B3C5-845002A8F3CA" mainViewID="5ACC0A6F-AC5C-496C-93DB-E8976B47799F">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:30:02 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
