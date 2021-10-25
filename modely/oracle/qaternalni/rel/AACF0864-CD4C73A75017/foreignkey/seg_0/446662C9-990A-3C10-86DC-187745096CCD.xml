@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="446662C9-990A-3C10-86DC-187745096CCD" containerWithKeyObject="9A18BDF1-2E86-7C4C-EFD0-2F07EEAA96CA" localFKIndex="C0ED6DEF-D094-3CDE-CD92-68717D1B8398" name="uci_UCITEL_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>F3FC42C6-A429-FD4D-C550-82F265CB2D67</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<referredTableLongName>UCITEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>94245210-E659-F0C3-E069-60F6BA8F51BF</referredTableID>
+<keyObject>50A18BB4-8CCD-456F-B1B5-656DC4582963</keyObject>
+<referredKeyID>50A18BB4-8CCD-456F-B1B5-656DC4582963</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>os_cislo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

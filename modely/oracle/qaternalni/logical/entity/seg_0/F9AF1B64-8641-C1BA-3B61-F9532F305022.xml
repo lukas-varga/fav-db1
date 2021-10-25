@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9AF1B64-8641-C1BA-3B61-F9532F305022" name="ZAK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:05:13 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="os_cislo" id="389999AD-E989-878A-49D9-36CABC7806DC">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:05:13 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmeno" id="24685E59-868D-F92C-D2DE-1029757F9E9A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:05:13 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijmeni" id="B502A871-0258-3D01-9960-C7041E7CFF01">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:05:13 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rozvrhova_akce_ID" id="7201421B-2C07-8BBA-A6D9-AE46CE7638E6">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:10 UTC</createdTime>
+<generatorID>EB700148-C576-5044-E103-1937ADA834F6</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<referedAttribute>1228A91C-381E-8D60-4DDF-83BC3BFC39AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C15783EA-D9C5-330E-4A12-F9D55D788C64" name="UCITEL PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:05:13 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>389999AD-E989-878A-49D9-36CABC7806DC</attributeRef>
+<attributeRef>7201421B-2C07-8BBA-A6D9-AE46CE7638E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

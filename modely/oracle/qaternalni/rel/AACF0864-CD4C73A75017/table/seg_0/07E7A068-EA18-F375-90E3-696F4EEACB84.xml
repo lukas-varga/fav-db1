@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07E7A068-EA18-F375-90E3-696F4EEACB84" name="ZAK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>F9AF1B64-8641-C1BA-3B61-F9532F305022</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="os_cislo" id="541D3171-EE55-B698-2498-DB1E86C63E00">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>389999AD-E989-878A-49D9-36CABC7806DC</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmeno" id="893A63E1-F404-115A-F47E-4C5D2D66CC7E">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>24685E59-868D-F92C-D2DE-1029757F9E9A</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="A9D8DDD6-A750-2BCC-4B3F-6C0AE9B3869E">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>B502A871-0258-3D01-9960-C7041E7CFF01</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRIDA_rozvrhova_akce_ID" id="3B40DF0D-4059-2C82-5B01-C5C133CE5131">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>7201421B-2C07-8BBA-A6D9-AE46CE7638E6</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10F0E4ED-6D45-6B72-A1D5-343B3607EFA7" referredColumn="EC9FCE78-D9DB-79F2-5875-DC0B53ED1DFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46DA1645-8269-FAC0-1BE7-7DC13801DEEF" name="ZAK_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>C15783EA-D9C5-330E-4A12-F9D55D788C64</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="541D3171-EE55-B698-2498-DB1E86C63E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E90824F-09CA-9203-6594-90AB31F8583A" name="ZAK_TRIDA_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>EB700148-C576-5044-E103-1937ADA834F6</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B40DF0D-4059-2C82-5B01-C5C133CE5131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

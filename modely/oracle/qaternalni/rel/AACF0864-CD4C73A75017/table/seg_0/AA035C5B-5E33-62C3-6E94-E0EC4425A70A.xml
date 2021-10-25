@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA035C5B-5E33-62C3-6E94-E0EC4425A70A" name="PREDMET">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>4B2D85F3-55A2-6C15-4498-FC681A15276D</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazev" id="D728F88F-AE1D-AE39-A273-0E7C315E229A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>2E09A2EA-5A9D-F4C7-872C-8BCDBC202D35</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="katedra" id="ED2C07B0-2633-B881-0107-231E318AC98C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>F19C0B43-88DE-5B4E-642D-A599E5959B75</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zkratka" id="91268D79-4A9B-E663-36A8-8780DEC010DC">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>CDB5D367-B64D-94CA-CB38-0A3D2E6F9780</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA850C40-9598-F810-C96D-EC65C985ABF8" name="PREDMET_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>8AD5D58E-3E3E-41AA-FD99-FE8393D290BA</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED2C07B0-2633-B881-0107-231E318AC98C"/>
+<colUsage columnID="91268D79-4A9B-E663-36A8-8780DEC010DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

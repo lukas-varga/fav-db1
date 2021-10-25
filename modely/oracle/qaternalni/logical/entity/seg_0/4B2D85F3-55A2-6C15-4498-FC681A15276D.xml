@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B2D85F3-55A2-6C15-4498-FC681A15276D" name="PREDMET">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:59:03 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazev" id="2E09A2EA-5A9D-F4C7-872C-8BCDBC202D35">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:03:06 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="katedra" id="F19C0B43-88DE-5B4E-642D-A599E5959B75">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:03:41 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zkratka" id="CDB5D367-B64D-94CA-CB38-0A3D2E6F9780">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:04:04 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8AD5D58E-3E3E-41AA-FD99-FE8393D290BA" name="PREDMET PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:03:53 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F19C0B43-88DE-5B4E-642D-A599E5959B75</attributeRef>
+<attributeRef>CDB5D367-B64D-94CA-CB38-0A3D2E6F9780</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4559A310-F2E6-23C1-5359-E6BDED42C363" name="MISTNOST">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:58:54 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazev" id="11A2010E-14C1-1C4E-8FA4-BA30892A4E66">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:02:38 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mistnost_id" id="839F24CD-2640-73AD-540C-1F974358B817">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:02:52 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFE713A1-B32B-128F-A67E-6CE5F5EEEA12" name="MISTNOST PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:03:00 UTC</createdTime>
+<ownerDesignName>qaternalni</ownerDesignName>
+<engineerTo>
+<item key="AACF0864-9AB2-55E7-D922-CD4C73A75017" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>839F24CD-2640-73AD-540C-1F974358B817</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

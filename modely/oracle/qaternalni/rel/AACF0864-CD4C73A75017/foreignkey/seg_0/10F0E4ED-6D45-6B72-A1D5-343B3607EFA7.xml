@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10F0E4ED-6D45-6B72-A1D5-343B3607EFA7" containerWithKeyObject="07E7A068-EA18-F375-90E3-696F4EEACB84" localFKIndex="1E90824F-09CA-9203-6594-90AB31F8583A" name="ZAK_TRIDA_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>EB700148-C576-5044-E103-1937ADA834F6</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<referredTableLongName>TRIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2EA4ADB1-B9ED-4733-10D3-D87D357298B9</referredTableID>
+<keyObject>338B371F-629B-0FFE-EB23-20970F4F7C79</keyObject>
+<referredKeyID>338B371F-629B-0FFE-EB23-20970F4F7C79</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rozvrhova_akce_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

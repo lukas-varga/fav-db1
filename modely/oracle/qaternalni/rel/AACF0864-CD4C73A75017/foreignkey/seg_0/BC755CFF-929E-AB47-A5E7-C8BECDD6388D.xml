@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC755CFF-929E-AB47-A5E7-C8BECDD6388D" containerWithKeyObject="9A18BDF1-2E86-7C4C-EFD0-2F07EEAA96CA" localFKIndex="04C67D10-432F-A3F8-745E-A378E391AB61" name="uci_MISTNOST_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>ADF9C7DA-4C31-6A04-F102-8B8AB54A73B8</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<referredTableLongName>MISTNOST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C43F1348-B797-0C4A-27ED-C559CFAC6473</referredTableID>
+<keyObject>554B03D3-2A14-063E-3A36-4E6153041B63</keyObject>
+<referredKeyID>554B03D3-2A14-063E-3A36-4E6153041B63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mistnost_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

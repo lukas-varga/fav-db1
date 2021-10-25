@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="821DE852-222E-45C1-83B8-EDB84E02D761" containerWithKeyObject="9A18BDF1-2E86-7C4C-EFD0-2F07EEAA96CA" localFKIndex="2361E2F7-320D-54A8-8C62-FF6037B96109" name="uci_PREDMET_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>9BF8188E-D4CE-5D62-1E08-E34FE258BE49</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<referredTableLongName>PREDMET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA035C5B-5E33-62C3-6E94-E0EC4425A70A</referredTableID>
+<keyObject>FA850C40-9598-F810-C96D-EC65C985ABF8</keyObject>
+<referredKeyID>FA850C40-9598-F810-C96D-EC65C985ABF8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>katedra,zkratka</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

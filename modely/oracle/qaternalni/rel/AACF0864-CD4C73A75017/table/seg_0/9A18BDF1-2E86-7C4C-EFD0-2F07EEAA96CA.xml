@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A18BDF1-2E86-7C4C-EFD0-2F07EEAA96CA" name="uci">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>97205B90-47FD-5674-2148-F27450006FC4</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chvile" id="BDA6708C-8AAB-6F06-5F2E-8286CAA83782">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>7BFA6869-A843-1210-0021-08303B8D5D7F</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MISTNOST_mistnost_id" id="B6CFA232-B7EB-1448-6923-34EB2299B423">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>FBBD73DD-971C-367B-3A31-887BE32DFA2E</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC755CFF-929E-AB47-A5E7-C8BECDD6388D" referredColumn="27C5F2B7-89F6-1627-DF18-F190B7787810"/>
+</associations>
+</Column>
+<Column name="UCITEL_os_cislo" id="AECC5268-EF00-1FEE-118B-802294E43248">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>FD24B2B6-1A92-6580-BBC8-A5F2026E5E2A</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="446662C9-990A-3C10-86DC-187745096CCD" referredColumn="BC2B46E7-3119-8FAE-8734-5A72FE0FFC0F"/>
+</associations>
+</Column>
+<Column name="TRIDA_rozvrhova_akce_ID" id="108BC696-2B64-CA56-76F2-45896FE81D85">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>1F743CA1-623D-3B85-A6B8-FB76D2521FB0</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1596B494-35AC-B8DC-518D-3653A8BFC607" referredColumn="EC9FCE78-D9DB-79F2-5875-DC0B53ED1DFA"/>
+</associations>
+</Column>
+<Column name="PREDMET_katedra" id="6F169341-C888-2D58-7CC9-A3374E0FEEAA">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>72B29D7C-E52C-E783-1C7B-E5A4373E9FBC</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="821DE852-222E-45C1-83B8-EDB84E02D761" referredColumn="ED2C07B0-2633-B881-0107-231E318AC98C"/>
+</associations>
+</Column>
+<Column name="PREDMET_zkratka" id="8B3AA49F-1AE1-C8D0-B3FC-5A4A6F87FAFE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>FCCF4D2B-A944-12D0-C730-9E13259E369A</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="821DE852-222E-45C1-83B8-EDB84E02D761" referredColumn="91268D79-4A9B-E663-36A8-8780DEC010DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79FB9D56-C81B-C527-F523-4DDFE420189B" name="uci_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>834C7AA4-1BD8-800B-2BB0-FC5F000D9FA6</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDA6708C-8AAB-6F06-5F2E-8286CAA83782"/>
+<colUsage columnID="B6CFA232-B7EB-1448-6923-34EB2299B423"/>
+<colUsage columnID="AECC5268-EF00-1FEE-118B-802294E43248"/>
+<colUsage columnID="108BC696-2B64-CA56-76F2-45896FE81D85"/>
+<colUsage columnID="6F169341-C888-2D58-7CC9-A3374E0FEEAA"/>
+<colUsage columnID="8B3AA49F-1AE1-C8D0-B3FC-5A4A6F87FAFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04C67D10-432F-A3F8-745E-A378E391AB61" name="uci_MISTNOST_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>ADF9C7DA-4C31-6A04-F102-8B8AB54A73B8</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CFA232-B7EB-1448-6923-34EB2299B423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0ED6DEF-D094-3CDE-CD92-68717D1B8398" name="uci_UCITEL_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>F3FC42C6-A429-FD4D-C550-82F265CB2D67</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AECC5268-EF00-1FEE-118B-802294E43248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64AE3642-ECAA-3C5B-7CAC-A97ACCEBC8EE" name="uci_TRIDA_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>81479F50-6655-82BA-1412-E86A8987C53A</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="108BC696-2B64-CA56-76F2-45896FE81D85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2361E2F7-320D-54A8-8C62-FF6037B96109" name="uci_PREDMET_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 19:08:25 UTC</createdTime>
+<generatorID>9BF8188E-D4CE-5D62-1E08-E34FE258BE49</generatorID>
+<ownerDesignName>qaternalni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F169341-C888-2D58-7CC9-A3374E0FEEAA"/>
+<colUsage columnID="8B3AA49F-1AE1-C8D0-B3FC-5A4A6F87FAFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
