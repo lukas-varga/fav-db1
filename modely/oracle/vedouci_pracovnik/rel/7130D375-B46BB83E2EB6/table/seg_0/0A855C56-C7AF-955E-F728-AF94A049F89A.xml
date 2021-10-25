@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A855C56-C7AF-955E-F728-AF94A049F89A" name="PRACOVISTE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:47:39 UTC</createdTime>
+<generatorID>24064DA9-1800-9935-0A6A-FC90FA20F78A</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRACOVISTE_ID" id="2F4063D8-61A7-DF72-F166-3E9B9941A2C5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:47:39 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="nazev" id="4205D191-97E3-9C48-F82C-77ADEB1A2F6A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<generatorID>0485CDCC-3E38-15E3-8EA9-F45D48948195</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46DB0BDF-37FB-A2B5-93F7-05167931CBDF" name="PRACOVISTE_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:47:39 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="2F4063D8-61A7-DF72-F166-3E9B9941A2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

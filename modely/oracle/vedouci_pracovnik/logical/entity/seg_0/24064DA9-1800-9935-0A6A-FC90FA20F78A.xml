@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24064DA9-1800-9935-0A6A-FC90FA20F78A" name="PRACOVISTE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:47:19 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<engineerTo>
+<item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazev" id="0485CDCC-3E38-15E3-8EA9-F45D48948195">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:48:49 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<engineerTo>
+<item key="7130D375-725F-A0BB-356D-B46BB83E2EB6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3095DA8-83E1-AE8C-03BE-871FECAF9E8D" name="PRACOVNIK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<generatorID>56D50E83-142F-E4C2-BF07-D636FDB8ACE0</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jmeno" id="7161E744-31C2-A18C-24F3-CA5F74E3FB49">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<generatorID>A27B11E3-170E-2EF8-673E-0D06ED1327CA</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="4EC62468-707E-9C74-7B40-A15A5EC920D8">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<generatorID>36B45362-4F9D-BAAE-18E1-A8571A23D407</generatorID>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRACOVNIK_ID" id="7DD5771C-24D6-DE27-AF10-2EF63524F2C5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA102A49-9C30-DFE8-6E0D-41B1788C5514" name="PRACOVNIK_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:50:12 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

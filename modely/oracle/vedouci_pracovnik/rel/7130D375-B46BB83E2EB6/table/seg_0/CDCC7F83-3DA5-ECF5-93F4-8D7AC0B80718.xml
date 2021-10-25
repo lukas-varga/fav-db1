@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDCC7F83-3DA5-ECF5-93F4-8D7AC0B80718" name="ma">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:55:53 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRACOVISTE_ID" id="D96793ED-0239-5656-2754-0628143C1C28">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:55:53 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57D9FFFC-CA1E-5A8A-3410-6BE1D30EA221" referredColumn="2F4063D8-61A7-DF72-F166-3E9B9941A2C5"/>
+</associations>
+</Column>
+<Column name="PRACOVNIK_ID" id="0CE3D67F-3E39-4431-F170-8245C627EFA8">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:11:36 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD8568DC-4297-B294-EB67-3E76A18F5DC5" referredColumn="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B35678FD-912D-C541-AF9D-5CD25F3774AD" name="ma_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:55:53 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D96793ED-0239-5656-2754-0628143C1C28"/>
+<colUsage columnID="0CE3D67F-3E39-4431-F170-8245C627EFA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E544D81D-AA87-64FF-19A0-1E9DD41EB550" name="ma_PRACOVISTE_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:02:10 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D96793ED-0239-5656-2754-0628143C1C28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="439B9B60-6843-20EC-1E93-F68FAE04637C" name="ma_PRACOVNIK_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:11:36 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CE3D67F-3E39-4431-F170-8245C627EFA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
