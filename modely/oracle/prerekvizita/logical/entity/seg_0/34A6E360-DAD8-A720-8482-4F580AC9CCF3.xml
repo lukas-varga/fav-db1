@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34A6E360-DAD8-A720-8482-4F580AC9CCF3" name="PREDMET">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>395F57C1-105E-2E9B-1358-B6CFE4E4FA4C</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="zkratka" id="64A73D1C-7078-111A-6844-88FF85CFFCED">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>ED92BB1A-4941-8E72-7CB7-66D92EBFE0D8</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pracoviste" id="DED2F5DA-763C-DD02-2616-DBEC876B5C88">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>F085C436-EAD4-2F29-CE15-FD5003715CF6</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="E207E9F2-A224-C50D-5F02-45A1B9F8E2F3">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>B2E63E35-702D-909B-2C69-CFC6A0E87193</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kredity" id="74138EDF-AA5C-DA84-C158-E6D125BB6B6F">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>68350086-F323-CB69-3B3F-F98DB2144475</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predmet id" id="32DB7462-4FD0-A6A4-A214-D6EB44B2D9CD">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>C9BBC211-3558-9281-88D9-C1C743CF9743</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A737E59D-4852-3FD6-3A3E-89AE2A98D0A3" name="PREDMET PKv2">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>F26C0994-0729-4295-0FB3-2BF188105D36</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32DB7462-4FD0-A6A4-A214-D6EB44B2D9CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

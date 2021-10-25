@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MA_PREDMET_FK" directorySegmentName="seg_0" id="8ACC1062-2444-6362-65A1-E67A40D3DB7B">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>7D0D3080-CDB8-D4F8-2BFC-3BA4542F8337</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<sourcePk>A737E59D-4852-3FD6-3A3E-89AE2A98D0A3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34A6E360-DAD8-A720-8482-4F580AC9CCF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC7117F8-1677-DDC7-A289-3C6443C89914</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

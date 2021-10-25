@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD88A5B9-11EE-826D-D9A2-E5B2EDBF922D" name="ma">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:02:31 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="predmet_id" id="E342770B-6A2B-331C-1D6E-57E8D14B6C80">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:29:44 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D0D3080-CDB8-D4F8-2BFC-3BA4542F8337" referredColumn="C9BBC211-3558-9281-88D9-C1C743CF9743"/>
+</associations>
+</Column>
+<Column name="prerekvizita_id" id="ECEC151A-111A-1974-1D7B-C662008D014C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:29:57 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79635F4D-3313-C064-2CE5-952F2263F60B" referredColumn="A6975025-563F-F1C1-CFED-DB8155A22374"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B04170E5-879A-D805-ED88-283B359C1B3A" name="MA_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:30:10 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E342770B-6A2B-331C-1D6E-57E8D14B6C80"/>
+<colUsage columnID="ECEC151A-111A-1974-1D7B-C662008D014C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD7410AF-FCEF-A830-8A4B-0560BBE1F11C" name="MA_PREDMET_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:29:44 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E342770B-6A2B-331C-1D6E-57E8D14B6C80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7C24134-8135-0BC0-5DAA-643799E04DBD" name="MA_PREREKVIZITA_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:29:57 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECEC151A-111A-1974-1D7B-C662008D014C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

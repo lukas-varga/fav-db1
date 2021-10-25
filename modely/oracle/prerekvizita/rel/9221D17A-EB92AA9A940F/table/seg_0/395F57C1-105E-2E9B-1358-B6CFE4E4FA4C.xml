@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="395F57C1-105E-2E9B-1358-B6CFE4E4FA4C" name="PREDMET">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:02:23 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zkratka" id="ED92BB1A-4941-8E72-7CB7-66D92EBFE0D8">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:52:40 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pracoviste" id="F085C436-EAD4-2F29-CE15-FD5003715CF6">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:52:59 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="B2E63E35-702D-909B-2C69-CFC6A0E87193">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:53:31 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kredity" id="68350086-F323-CB69-3B3F-F98DB2144475">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 16:54:07 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet_id" id="C9BBC211-3558-9281-88D9-C1C743CF9743">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:09:33 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F26C0994-0729-4295-0FB3-2BF188105D36" name="PREDMET_PKv2">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:05:18 UTC</createdTime>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9BBC211-3558-9281-88D9-C1C743CF9743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4502C99-735E-5285-8123-C7A7DBC585EB" name="je">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>F31BB36B-3E2F-4970-C3F5-2A1DEA296530</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="predmet id" id="782D98A3-F3CF-0C79-01C9-14CFFD6A23DA">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>C52D4BE5-008F-5B6B-88FA-B58C1E9BE0EF</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<referedAttribute>32DB7462-4FD0-A6A4-A214-D6EB44B2D9CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prerekvizita id" id="556D7110-48B3-74E7-5587-BA8D576681AC">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>E5D04861-2413-645D-C909-B02FC719DEB4</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<referedAttribute>B0B16F61-3E85-95E4-9389-FC9DDFF6F745</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C60AF41-EBB0-42B9-16B4-03F5E1FC0137" name="JE PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 17:44:02 UTC</createdTime>
+<generatorID>5E787B15-76F8-4483-5029-128796DCDB28</generatorID>
+<ownerDesignName>prerekvizita</ownerDesignName>
+<engineerTo>
+<item key="9221D17A-477A-80B0-A0DE-EB92AA9A940F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>782D98A3-F3CF-0C79-01C9-14CFFD6A23DA</attributeRef>
+<attributeRef>556D7110-48B3-74E7-5587-BA8D576681AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
