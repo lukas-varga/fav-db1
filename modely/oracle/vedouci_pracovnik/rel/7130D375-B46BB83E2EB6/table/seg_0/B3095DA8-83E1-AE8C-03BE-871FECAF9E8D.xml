@@ -45,6 +45,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <isSurrogateColumn>true</isSurrogateColumn>
 </Column>
+<Column name="PRACOVNIK_PRACOVNIK_ID" id="D4AADB1C-F59C-5215-6E99-79301A73084A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:18:36 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5590C7B1-9F19-726F-E9FF-A090BA6A5525" referredColumn="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AA102A49-9C30-DFE8-6E0D-41B1788C5514" name="PRACOVNIK_PK">
@@ -55,6 +69,16 @@
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="7DD5771C-24D6-DE27-AF10-2EF63524F2C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB17359E-F585-BB7B-3660-2EE6EBE15518" name="VEDOUCI_PRACOVNIK_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-10-25 18:18:36 UTC</createdTime>
+<ownerDesignName>vedouci_pracovnik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AADB1C-F59C-5215-6E99-79301A73084A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
