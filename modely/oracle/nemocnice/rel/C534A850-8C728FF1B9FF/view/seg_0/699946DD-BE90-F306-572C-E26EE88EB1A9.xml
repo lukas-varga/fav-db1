@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="699946DD-BE90-F306-572C-E26EE88EB1A9" name="PACIENTI_Z_MEST_S_NEMOCNICEMI">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 09:20:38 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<ordsAlias>view_3</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    pacient.jmeno,
+    pacient.prijmeni,
+    pacient.rc
+FROM
+         nemocnice
+    INNER JOIN mesto ON mesto.c_mesta = nemocnice.c_mesta
+    INNER JOIN pacient ON mesto.c_mesta = pacient.c_mesta]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="jmeno" id="445E4DE3-B9C1-E893-97CF-0BF9166442FD">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 09:24:45 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50 CHAR)</dataType>
+<headerAlias>jmeno</headerAlias>
+<reference>false</reference>
+<referencedColumn>EE66E7BA-F2EE-021D-40F3-87F453B43238</referencedColumn>
+<table>E5FA39B4-5BE6-1D50-9549-3AB2DB963B0C</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="prijmeni" id="DDEBFB2C-E1B0-B000-7F2E-8CCCF0B455FA">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 09:24:45 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50 CHAR)</dataType>
+<headerAlias>prijmeni</headerAlias>
+<reference>false</reference>
+<referencedColumn>30181FB6-BEE4-3077-A15E-53E4E227DD0F</referencedColumn>
+<table>E5FA39B4-5BE6-1D50-9549-3AB2DB963B0C</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="rc" id="7D0BF34B-40DD-1F63-B7E4-0D646F600F74">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 09:24:45 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10 CHAR)</dataType>
+<headerAlias>rc</headerAlias>
+<reference>false</reference>
+<referencedColumn>5FED1474-6EEA-D7B6-4F62-585E2D2DE291</referencedColumn>
+<table>E5FA39B4-5BE6-1D50-9549-3AB2DB963B0C</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="55E1C14A-4180-84DE-307B-A50C32DC6312">
+<container>true</container>
+<tableName>NEMOCNICE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AFAC3FF1-2C53-C95B-6EFA-102C62FC337D">
+<container>true</container>
+<tableName>MESTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E5FA39B4-5BE6-1D50-9549-3AB2DB963B0C">
+<container>true</container>
+<tableName>PACIENT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EE66E7BA-F2EE-021D-40F3-87F453B43238">
+<columnName>jmeno</columnName>
+<tableName>PACIENT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="30181FB6-BEE4-3077-A15E-53E4E227DD0F">
+<columnName>prijmeni</columnName>
+<tableName>PACIENT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5FED1474-6EEA-D7B6-4F62-585E2D2DE291">
+<columnName>rc</columnName>
+<tableName>PACIENT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9ECFF78E-8C39-636F-3A2C-46D97AB43B9C">
+<columnName>c_mesta</columnName>
+<tableName>MESTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="29EF5AD7-19CA-7105-0318-D7640DB656C6">
+<columnName>c_mesta</columnName>
+<tableName>NEMOCNICE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="42F7AB10-E629-61C7-CAD1-D6A7A5BFE606">
+<columnName>c_mesta</columnName>
+<tableName>PACIENT</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

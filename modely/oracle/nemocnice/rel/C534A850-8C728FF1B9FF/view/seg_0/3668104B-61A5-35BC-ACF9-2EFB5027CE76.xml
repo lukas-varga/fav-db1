@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="3668104B-61A5-35BC-ACF9-2EFB5027CE76" name="MESTA_NAD_100000">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 08:45:14 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<ordsAlias>view_1</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    mesto.nazev
+FROM
+    mesto
+WHERE
+    mesto.obyvatel > 100000]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nazev" id="91EFA20F-34BB-C110-52F2-3C2434B6C875">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-03 08:51:43 UTC</createdTime>
+<ownerDesignName>nemocnice</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50 CHAR)</dataType>
+<headerAlias>nazev</headerAlias>
+<reference>false</reference>
+<referencedColumn>B1879FEE-8546-572B-B2EF-174721D29D55</referencedColumn>
+<table>AFAC3FF1-2C53-C95B-6EFA-102C62FC337D</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AFAC3FF1-2C53-C95B-6EFA-102C62FC337D">
+<container>true</container>
+<tableName>MESTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B1879FEE-8546-572B-B2EF-174721D29D55">
+<columnName>nazev</columnName>
+<tableName>MESTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C0DA2320-9348-BB3D-5FBC-7D832E5BE858">
+<columnName>obyvatel</columnName>
+<tableName>MESTO</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>
