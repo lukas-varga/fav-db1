@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="motorbike_rental" id="50D29BEE-BDF8-5760-C809-D251E56AC0EC" version="3.5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:11:34 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>50D29BEE-BDF8-5760-C809-D251E56AC0EC</designId>
+</OSDM_Design>
