@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18E34FF8-9CF9-D7D1-6996-0B356DE3ABA4" name="RENT">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:40:46 UTC</createdTime>
+<generatorID>CF7D1B33-FCFE-DFFE-D149-F2C5F7E0A7B7</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_rent" id="A0A08ACD-C1D7-0861-F67F-82EACF26696A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:40:46 UTC</createdTime>
+<generatorID>639F0027-2D92-7DEA-35FA-A8CAF62F3894</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rent_date" id="3012A40E-91E4-27F1-D646-E7A6FE94C86F">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:40:46 UTC</createdTime>
+<generatorID>957C38E0-3AB6-0A5A-18DE-28C0FFC710BE</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="return_date" id="63FBD2BF-EA82-E2BE-CEC2-B07E194B9AF5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:40:46 UTC</createdTime>
+<generatorID>7AEBAAD7-D004-AA41-5A5E-E3D5D13182B9</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_motorbike" id="8E8EB3CE-6E62-42AD-3588-FA17854F7C9A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:56:44 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20E4D97B-E3A3-79F2-0788-84051DB5C4DE" referredColumn="1BF06171-3F36-D8D9-F3B5-044CCBCE88BC"/>
+</associations>
+</Column>
+<Column name="ID_customer" id="BD1A5687-FB55-B1BD-40A5-1A4D1F386B34">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:56:48 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02B2EC65-8870-E9D9-0993-CB65FDCFD9CF" referredColumn="FFBAD4AC-80EF-CB8A-018A-C29BFE8202E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D208A7EA-7CEA-65AC-8C28-472129147DC5" name="RENT_PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:40:46 UTC</createdTime>
+<generatorID>206E50A4-DB75-5DDE-2DAA-BE8A4502A55D</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A08ACD-C1D7-0861-F67F-82EACF26696A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0307808-67CD-67D6-9AD7-B22A6E861B06" name="RENT_MOTORBIKE_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:56:44 UTC</createdTime>
+<generatorID>E823D9B9-6371-F818-D7D4-BC2E52BC4067</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E8EB3CE-6E62-42AD-3588-FA17854F7C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A9EFB1D-561E-3A40-9CEC-36273B60E0F8" name="RENT_CUSTOMER_FK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:56:48 UTC</createdTime>
+<generatorID>C723896F-4DD3-D63F-3A70-90E8013A4892</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD1A5687-FB55-B1BD-40A5-1A4D1F386B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

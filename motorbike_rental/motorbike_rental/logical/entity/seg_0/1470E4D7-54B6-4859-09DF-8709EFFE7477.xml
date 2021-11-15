@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1470E4D7-54B6-4859-09DF-8709EFFE7477" name="CUSTOMER">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:17:14 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID customer" id="A8EAC3C3-C8A0-C223-2EEA-3F1A40B00732">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:19:41 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="0E472EE3-7E9B-69A9-8B49-D7B28447CC60">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:22:04 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="surname" id="4FFAB88A-0EC0-0A65-26A7-2F3DE754FD34">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:23:05 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="personal number" id="D07EB98B-687A-C3F5-BEB0-B546FDB427F5">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:23:42 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID address" id="BCCAC720-2A44-7C73-0FC6-7C002B14F83F">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 20:57:32 UTC</createdTime>
+<generatorID>677AFF10-E59D-C268-3114-66B856E5623B</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<referedAttribute>3AA4D6BF-A46A-6534-359C-2B18A6125C6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C7776FCE-C65D-A36D-074C-1B07E60B2B4C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 21:01:02 UTC</createdTime>
+<generatorID>144207A8-328C-9CD5-494F-DAFC77624D7E</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C723896F-4DD3-D63F-3A70-90E8013A4892" name="CUSTOMER PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:21:53 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8EAC3C3-C8A0-C223-2EEA-3F1A40B00732</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

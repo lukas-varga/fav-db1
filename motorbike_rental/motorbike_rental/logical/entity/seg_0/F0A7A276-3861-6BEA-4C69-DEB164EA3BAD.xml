@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0A7A276-3861-6BEA-4C69-DEB164EA3BAD" name="ADDRESS">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:17:28 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID address" id="3AA4D6BF-A46A-6534-359C-2B18A6125C6A">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:26:15 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip code" id="02F744A8-84D6-3A77-AF97-DADB49693CD8">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:29:05 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="955BBB1B-F94F-2A84-E5DE-064D274B36DE">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:26:29 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="DFEE9FB0-99CC-C22A-43F6-E702B7011F0C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:29:55 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street number" id="B68E9AB3-23F1-37D6-6998-B84997298C52">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:33:55 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8113966-6109-30E4-DFC9-908FB9864C36" name="ADDRESS PK">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-14 16:26:26 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3AA4D6BF-A46A-6534-359C-2B18A6125C6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
