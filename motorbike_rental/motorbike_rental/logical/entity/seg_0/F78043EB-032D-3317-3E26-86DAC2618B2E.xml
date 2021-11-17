@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F78043EB-032D-3317-3E26-86DAC2618B2E" name="TYPE MOTORBIKE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F78043EB-032D-3317-3E26-86DAC2618B2E" name="MODEL">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 16:15:26 UTC</createdTime>
 <ownerDesignName>motorbike_rental</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID type motorbike" id="1B0C3C5E-E683-1D12-58AD-F5797E14390D">
+<Attribute name="ID model" id="1B0C3C5E-E683-1D12-58AD-F5797E14390D">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 16:42:58 UTC</createdTime>
 <ownerDesignName>motorbike_rental</ownerDesignName>
@@ -40,7 +40,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="model" id="A60ECAC7-30FC-5333-171C-9B1E664528FC">
+<Attribute name="model name" id="A60ECAC7-30FC-5333-171C-9B1E664528FC">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 16:43:22 UTC</createdTime>
 <ownerDesignName>motorbike_rental</ownerDesignName>
@@ -67,7 +67,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D42FB438-B42B-B94D-03DE-A27FA11D99DC" name="TYPE_MOTORBIKE_PK">
+<identifier id="D42FB438-B42B-B94D-03DE-A27FA11D99DC" name="MODEL_PK">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 16:43:09 UTC</createdTime>
 <ownerDesignName>motorbike_rental</ownerDesignName>

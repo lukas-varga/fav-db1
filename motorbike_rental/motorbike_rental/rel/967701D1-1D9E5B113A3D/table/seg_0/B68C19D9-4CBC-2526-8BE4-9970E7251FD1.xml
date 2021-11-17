@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B68C19D9-4CBC-2526-8BE4-9970E7251FD1" name="TYPE_MOTORBIKE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B68C19D9-4CBC-2526-8BE4-9970E7251FD1" name="MODEL">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:40:46 UTC</createdTime>
 <generatorID>F78043EB-032D-3317-3E26-86DAC2618B2E</generatorID>
@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_type_motorbike" id="749B8C8D-056E-C152-6921-30534D836767">
+<Column name="ID_model" id="749B8C8D-056E-C152-6921-30534D836767">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:40:46 UTC</createdTime>
 <generatorID>1B0C3C5E-E683-1D12-58AD-F5797E14390D</generatorID>
@@ -32,7 +32,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="model" id="9F5F3F72-3395-1939-48E8-D68434AC127A">
+<Column name="model_name" id="9F5F3F72-3395-1939-48E8-D68434AC127A">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:40:46 UTC</createdTime>
 <generatorID>A60ECAC7-30FC-5333-171C-9B1E664528FC</generatorID>
@@ -57,7 +57,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A9FD1464-5498-4693-7280-D150DCC97472" name="TYPE_MOTORBIKE_PK">
+<ind_PK_UK id="A9FD1464-5498-4693-7280-D150DCC97472" name="MODEL_PK">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:40:46 UTC</createdTime>
 <generatorID>D42FB438-B42B-B94D-03DE-A27FA11D99DC</generatorID>

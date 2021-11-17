@@ -50,13 +50,27 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID type motorbike" id="6313D490-CDA6-656D-DDA0-6B7616295E0C">
+<Attribute name="ID model" id="6313D490-CDA6-656D-DDA0-6B7616295E0C">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:57:32 UTC</createdTime>
 <generatorID>CBC16725-F7D0-717C-7A48-6707A2A9F031</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<referedAttribute>1B0C3C5E-E683-1D12-58AD-F5797E14390D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID model1" id="BE00ED99-A25B-855F-3159-8B8CF4255C03">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-16 19:41:21 UTC</createdTime>
+<generatorID>B0402909-E384-D693-9010-B9961397E6F9</generatorID>
 <ownerDesignName>motorbike_rental</ownerDesignName>
 <engineerTo>
 <item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>

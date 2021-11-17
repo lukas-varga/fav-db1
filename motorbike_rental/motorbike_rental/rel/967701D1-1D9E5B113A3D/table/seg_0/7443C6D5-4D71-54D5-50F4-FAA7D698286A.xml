@@ -67,6 +67,17 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="phone" id="534768A5-28A6-B589-D2EB-951FA1D7786C">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-16 19:26:04 UTC</createdTime>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_address" id="82E2B262-1D56-2082-E908-2F7F5E7F338E">
 <createdBy>lukas</createdBy>
 <createdTime>2021-11-14 20:55:47 UTC</createdTime>

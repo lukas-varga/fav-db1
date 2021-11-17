@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MOTORBIKE_MODEL_FK" directorySegmentName="seg_0" id="B0402909-E384-D693-9010-B9961397E6F9">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-16 19:41:21 UTC</createdTime>
+<generatorID>4D48BDD0-CFBE-1231-C40A-A5D2E21DDAD7</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<sourcePk>D42FB438-B42B-B94D-03DE-A27FA11D99DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F78043EB-032D-3317-3E26-86DAC2618B2E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7B5D68E8-5047-0FE3-0898-B69BAFC15FF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

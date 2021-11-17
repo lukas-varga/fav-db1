@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46CE2B10-61D3-0163-550A-98D6F9C1A927" containerWithKeyObject="3B99BDA3-8369-1E2A-99CA-59B1FBDCDD79" localFKIndex="8BBBBE63-DEC0-FC39-3096-FB05F5DB5A71" name="MOTORBIKE_TYPE_MOTORBIKE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D48BDD0-CFBE-1231-C40A-A5D2E21DDAD7" containerWithKeyObject="3B99BDA3-8369-1E2A-99CA-59B1FBDCDD79" localFKIndex="AD31DBC2-0DAC-A520-C233-476F8BB79E6F" name="MOTORBIKE_MODEL_FK">
 <createdBy>lukas</createdBy>
-<createdTime>2021-11-14 20:55:26 UTC</createdTime>
+<createdTime>2021-11-16 19:38:49 UTC</createdTime>
 <generatorID>D42FB438-B42B-B94D-03DE-A27FA11D99DC</generatorID>
 <ownerDesignName>motorbike_rental</ownerDesignName>
-<referredTableLongName>TYPE_MOTORBIKE</referredTableLongName>
+<referredTableLongName>MODEL</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B68C19D9-4CBC-2526-8BE4-9970E7251FD1</referredTableID>
 <keyObject>A9FD1464-5498-4693-7280-D150DCC97472</keyObject>
 <referredKeyID>A9FD1464-5498-4693-7280-D150DCC97472</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_type_motorbike</refColNames>
+<refColNames>ID_model</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

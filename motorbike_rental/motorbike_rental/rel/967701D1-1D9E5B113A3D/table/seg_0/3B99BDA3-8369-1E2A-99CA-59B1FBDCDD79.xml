@@ -39,13 +39,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_type_motorbike" id="D269EFE1-2465-E798-4A2E-BB5DE89E289D">
+<Column name="ID_model" id="CCF0F184-038C-0D5B-3671-BC59B7EB6E80">
 <createdBy>lukas</createdBy>
-<createdTime>2021-11-14 20:55:26 UTC</createdTime>
+<createdTime>2021-11-16 19:38:49 UTC</createdTime>
 <ownerDesignName>motorbike_rental</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,7 +54,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="46CE2B10-61D3-0163-550A-98D6F9C1A927" referredColumn="749B8C8D-056E-C152-6921-30534D836767"/>
+<colAssociation fkAssociation="4D48BDD0-CFBE-1231-C40A-A5D2E21DDAD7" referredColumn="749B8C8D-056E-C152-6921-30534D836767"/>
 </associations>
 </Column>
 </columns>
@@ -71,15 +71,15 @@
 <colUsage columnID="1BF06171-3F36-D8D9-F3B5-044CCBCE88BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8BBBBE63-DEC0-FC39-3096-FB05F5DB5A71" name="MOTORBIKE_TYPE_MOTORBIKE_FK">
+<ind_PK_UK id="AD31DBC2-0DAC-A520-C233-476F8BB79E6F" name="MOTORBIKE_MODEL_FK">
 <createdBy>lukas</createdBy>
-<createdTime>2021-11-14 20:55:26 UTC</createdTime>
+<createdTime>2021-11-16 19:38:49 UTC</createdTime>
 <generatorID>D42FB438-B42B-B94D-03DE-A27FA11D99DC</generatorID>
 <ownerDesignName>motorbike_rental</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D269EFE1-2465-E798-4A2E-BB5DE89E289D"/>
+<colUsage columnID="CCF0F184-038C-0D5B-3671-BC59B7EB6E80"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

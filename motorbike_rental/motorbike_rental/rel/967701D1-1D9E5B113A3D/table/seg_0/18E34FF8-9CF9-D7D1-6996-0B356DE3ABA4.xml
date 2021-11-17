@@ -35,6 +35,7 @@
 <createdTime>2021-11-14 20:40:46 UTC</createdTime>
 <generatorID>7AEBAAD7-D004-AA41-5A5E-E3D5D13182B9</generatorID>
 <ownerDesignName>motorbike_rental</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>

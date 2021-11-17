@@ -95,6 +95,20 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="phone" id="2E91C64E-A97E-FD1B-A580-C7D0A80B953D">
+<createdBy>lukas</createdBy>
+<createdTime>2021-11-16 19:26:47 UTC</createdTime>
+<generatorID>534768A5-28A6-B589-D2EB-951FA1D7786C</generatorID>
+<ownerDesignName>motorbike_rental</ownerDesignName>
+<engineerTo>
+<item key="967701D1-50FA-1C77-FB05-1D9E5B113A3D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C723896F-4DD3-D63F-3A70-90E8013A4892" name="CUSTOMER PK">
