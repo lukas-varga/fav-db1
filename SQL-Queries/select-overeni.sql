@@ -33,5 +33,8 @@ select s.jmeno, count(c.id_osoby)
         
     
         
-    
+select s.jmeno, count(c.id_osoby)
+    from skupiny.s,
+        clenove_skupin c
+    where s.id_skupiny = c.id_skupiny;    
     
