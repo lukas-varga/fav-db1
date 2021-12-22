@@ -17,7 +17,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 DROP TABLE IF EXISTS `address` ;
 
 CREATE TABLE IF NOT EXISTS `address` (
-  `id_address` INT(11) NOT NULL,
+  `id_address` INT(11) NOT NULL AUTO_INCREMENT,
   `zip_code` INT(11) NOT NULL,
   `city` VARCHAR(30) NOT NULL,
   `street` VARCHAR(50) NOT NULL,
@@ -34,7 +34,7 @@ COLLATE = utf8_czech_ci;
 DROP TABLE IF EXISTS `customer` ;
 
 CREATE TABLE IF NOT EXISTS `customer` (
-  `id_customer` INT(11) NOT NULL,
+  `id_customer` INT(11) NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(30) NOT NULL,
   `surname` VARCHAR(30) NOT NULL,
   `personal_number` VARCHAR(15) NOT NULL,
@@ -57,7 +57,7 @@ COLLATE = utf8_czech_ci;
 DROP TABLE IF EXISTS `model` ;
 
 CREATE TABLE IF NOT EXISTS `model` (
-  `id_model` INT(11) NOT NULL,
+  `id_model` INT(11) NOT NULL AUTO_INCREMENT,
   `brand` VARCHAR(30) NOT NULL,
   `model_name` VARCHAR(50) NOT NULL,
   `engine_capacity` INT(11) NOT NULL,
@@ -73,7 +73,7 @@ COLLATE = utf8_czech_ci;
 DROP TABLE IF EXISTS `motorbike` ;
 
 CREATE TABLE IF NOT EXISTS `motorbike` (
-  `id_motorbike` INT(11) NOT NULL,
+  `id_motorbike` INT(11) NOT NULL AUTO_INCREMENT,
   `price` INT(11) NOT NULL,
   `bike_condition` VARCHAR(100) NULL DEFAULT NULL,
   `id_model` INT(11) NOT NULL,
@@ -93,7 +93,7 @@ COLLATE = utf8_czech_ci;
 DROP TABLE IF EXISTS `rent` ;
 
 CREATE TABLE IF NOT EXISTS `rent` (
-  `id_rent` INT(11) NOT NULL,
+  `id_rent` INT(11) NOT NULL AUTO_INCREMENT,
   `rent_date` DATE NOT NULL,
   `return_date` DATE NULL DEFAULT NULL,
   `id_motorbike` INT(11) NOT NULL,
